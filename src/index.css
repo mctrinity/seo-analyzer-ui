@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: global tweaks */
+body {
+  @apply bg-white text-gray-900 dark:bg-gray-950 dark:text-white;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+}

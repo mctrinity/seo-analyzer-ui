@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+.env
+
+# build output
+dist/
+build/
+
+# local dev
+.vite/
+*.log
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Docker
+docker-compose.override.yml
+*.local.yml
